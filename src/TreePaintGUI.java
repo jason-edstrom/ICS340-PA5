@@ -1,10 +1,12 @@
 
-//Code Genarated by JGuiD
+
 import java.awt.*;
-import java.awt.event.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
 import javax.swing.*;
 
-public class TreePaintGUI extends JFrame
+public class TreePaintGUI extends JFrame  implements ActionListener
 {
     TextArea untitled_5;
      Label lbl_Input;
@@ -55,15 +57,38 @@ public class TreePaintGUI extends JFrame
 	bt_BuildBS.setLabel("Build BST");
 	getContentPane().add(bt_BuildBS);
 
-	setTitle("TreePaintGU");
+
+   bt_BuildBS.addActionListener(this);
+   bt_Dra.addActionListener(this);
+
+	setTitle("TreePaintGUI");
 	setSize(567,573);
 	setVisible(true);
 	setResizable(true);
-	
+
+
 	
    }
     public static void main( String args[] )
    {
      new TreePaintGUI();
    }
-}  
+
+
+
+    @Override
+    public void actionPerformed(ActionEvent actionEvent) {
+        Object obj = actionEvent.getSource();
+
+        if ( obj == "Draw"){
+            String input = new String (tf_inpu.getText());
+            char[] inputArray = input.toCharArray();
+
+        }
+
+        if (obj == "Build BST"){
+
+        }
+
+    }
+}

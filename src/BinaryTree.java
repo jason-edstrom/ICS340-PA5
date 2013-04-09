@@ -98,6 +98,7 @@ public class BinaryTree<AnyType>
 
     static public void main( String [ ] args )
     {
+/*
         BinaryTree<Integer> t1 = new BinaryTree<Integer>( 1 );
         BinaryTree<Integer> t3 = new BinaryTree<Integer>( 3 );
         BinaryTree<Integer> t5 = new BinaryTree<Integer>( 5 );
@@ -119,6 +120,13 @@ public class BinaryTree<AnyType>
         t2.printInOrder( );
         System.out.println( "----------------" );
         System.out.println( "t4 size: " + t4.size( ) );
-        System.out.println( "t4 height: " + t4.height( ) );
+        System.out.println( "t4 height: " + t4.height( ) );*/
+
+
+        String inputWord = new String("dictatorship");
+        char[] inputCharArray = inputWord.toCharArray();
+        for (int i = 0; i < inputCharArray.length; i ++){
+
+        }
     }
 }
