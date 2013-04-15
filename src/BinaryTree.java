@@ -24,7 +24,7 @@ public class BinaryTree<AnyType>
 
     public BinaryTree( AnyType rootItem )
     {
-        root = new BinaryNode<AnyType>( rootItem, null, null );
+        root = new BinaryNode<AnyType>( rootItem, null, null, 0 );
     }
 
     public void printPreOrder( )
@@ -70,7 +70,7 @@ public class BinaryTree<AnyType>
         }
 
             // Allocate new node
-        root = new BinaryNode<AnyType>( rootItem, t1.root, t2.root );
+        root = new BinaryNode<AnyType>( rootItem, t1.root, t2.root, 0 );
 
             // Ensure that every node is in one tree
         if( this != t1 )

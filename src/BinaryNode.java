@@ -19,14 +19,25 @@ final class BinaryNode<AnyType>
 {
     public BinaryNode( )
     {
-        this( null, null, null );
+        this( null, null, null, 0);
     }
     
-    public BinaryNode( AnyType theElement, BinaryNode<AnyType> lt, BinaryNode<AnyType> rt )
+    public BinaryNode( AnyType theElement, BinaryNode<AnyType> lt, BinaryNode<AnyType> rt, int levelIn )
     {
         element = theElement;
         left    = lt;
         right   = rt;
+        index   = levelIn;
+        //asciiValue = ascii;
+    }
+
+    public BinaryNode( AnyType theElement)
+{
+    this(theElement, null, null, 0);
+}
+    public BinaryNode( AnyType theElement, int ascii)
+    {
+        this(theElement, null, null, ascii);
     }
 
     /**
@@ -77,7 +88,7 @@ final class BinaryNode<AnyType>
     {
         if( left != null )
             left.printInOrder( );            // Left
-        System.out.println( element );       // Node
+        System.out.println( element + " : " + index );       // Node
         if( right != null )
             right.printInOrder( );           // Right
     }
@@ -89,7 +100,7 @@ final class BinaryNode<AnyType>
      */
     public BinaryNode<AnyType> duplicate( )
     {
-        BinaryNode<AnyType> root = new BinaryNode<AnyType>( element, null, null );
+        BinaryNode<AnyType> root = new BinaryNode<AnyType>( element, null, null, 0 );
 
         if( left != null )            // If there's a left subtree
             root.left = left.duplicate( );    // Duplicate; attach
@@ -97,7 +108,79 @@ final class BinaryNode<AnyType>
             root.right = right.duplicate( );  // Duplicate; attach
         return root;                      // Return resulting tree
     }
-    
+
+    public void insert(BinaryNode node) {
+        boolean goLeft = false;
+        boolean goRight = false;
+
+        if(node.getIndex() == 2*this.getIndex()+1){
+                goLeft = true;
+        }
+        if(node.getIndex() == 2*this.getIndex()+2){
+                goRight = true;
+        }
+
+        if (goLeft){
+            if (left != null){
+                left.insert(node);
+            }   else {
+                System.out.println("  Inserted " + node.element + " to left of node " + this.element);
+                this.left = new BinaryNode(node.getElement(), null, null, node.getIndex());
+                return;
+
+            }
+        }  else if (goRight){
+            if (right != null){
+                right.insert(node);
+            }   else {
+                System.out.println("  Inserted " + node.element + " to right of node " + this.element);
+                this.right = new BinaryNode(node.getElement(), null, null, node.getIndex());
+                return;
+            }
+
+            }  //else if ( index == 0 ) {
+
+            //}
+
+            else{
+            if (left != null){
+            left.insert(node);
+            }
+            if (right != null){
+            right.insert(node);
+            }
+        }
+
+    }
+
+    public void bstAdd (BinaryNode node){
+        if (node.getIndex() <  this.index){
+            if (left != null){
+                left.bstAdd(node);
+            }   else {
+                System.out.println("  Inserted " + node.element + " to left of node " + this.element);
+                this.left = new BinaryNode(node.getElement(), null, null, node.getIndex());
+                return;
+
+            }
+        }  else if (node.getIndex() > this.index){
+            if (right != null){
+                right.bstAdd(node);
+            }   else {
+                System.out.println("  Inserted " + node.element + " to right of node " + this.element);
+                this.right = new BinaryNode(node.getElement(), null, null, node.getIndex());
+                 return;
+            }
+
+        }
+    }
+
+    public void setIndex(int i){
+     index = i;
+    }
+    public int getIndex(){
+        return index;
+    }
     public AnyType getElement( )
     {
         return element;
@@ -128,7 +211,30 @@ final class BinaryNode<AnyType>
         right = t;
     }
 
+    public void treeFormatTraversal(){//begin
+        int level = 3;
+        if(this !=null)
+            treeFormatHelper(this, level);
+        else
+            System.out.println("\nTree is Empty\n");
+    }
+    private void treeFormatHelper(BinaryNode node, Integer indentSpaces){
+
+        if(node==null)
+            return;
+        treeFormatHelper(node.right,indentSpaces+1);
+        for(int x=1;x<indentSpaces;x++)
+            System.out.print("\t");
+        System.out.println(node.getElement());
+        treeFormatHelper(node.left,indentSpaces+1);
+    }
+
     private AnyType             element;
     private BinaryNode<AnyType> left;
     private BinaryNode<AnyType> right;
+    private int index;
+
+
+
+    //private int asciiValue;
 }
