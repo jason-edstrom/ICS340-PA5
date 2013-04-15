@@ -109,6 +109,7 @@ final class BinaryNode<AnyType>
         return root;                      // Return resulting tree
     }
 
+        //Binary Tree Node logic
     public void insert(BinaryNode node) {
         boolean goLeft = false;
         boolean goRight = false;
@@ -152,7 +153,8 @@ final class BinaryNode<AnyType>
         }
 
     }
-
+    
+    //BST node add logic
     public void bstAdd (BinaryNode node){
         if (node.getIndex() <  this.index){
             if (left != null){

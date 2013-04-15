@@ -9,6 +9,8 @@ import javax.swing.*;
 
 public class TreePaintGUI extends JFrame  implements ActionListener
 {
+    
+    //GUI Build
     JPanel untitled_5;
      Label lbl_Input;
      TextField tf_inpu;
@@ -47,7 +49,7 @@ public class TreePaintGUI extends JFrame  implements ActionListener
 	tf_inpu.setLocation(50,7);
 	tf_inpu.setSize(501,34);
 	tf_inpu.setBackground( new Color(-1) );
-	tf_inpu.setText("abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz");
+	tf_inpu.setText("");
 	tf_inpu.setColumns(10);
 	getContentPane().add(tf_inpu);
 
@@ -86,17 +88,18 @@ public class TreePaintGUI extends JFrame  implements ActionListener
     public void actionPerformed(ActionEvent actionEvent) {
         Object obj = actionEvent.getSource();
         System.out.println(obj);
-
+        
+        //Empty check
         if (tf_inpu.getText().isEmpty() || tf_inpu.getText().length() == 0){
             JFrame frame = new JFrame();
             JOptionPane.showMessageDialog(frame,
-                    "Your input is empty.  Please add some text to the field",
+                    "Your input is empty.  Please add some text to the field.",
                     "No Input Found",
                     JOptionPane.ERROR_MESSAGE);
 
         } else{
 
-
+            //Draw button logic
         if ( obj == bt_Dra){
             String input = new String (tf_inpu.getText());
             char[] inputArray = input.toCharArray();
@@ -107,7 +110,7 @@ public class TreePaintGUI extends JFrame  implements ActionListener
             tree = null;
             tree = new BinaryNode();
         }
-
+            //BST button logic
         if (obj == bt_BuildBS){
             String input = new String (tf_inpu.getText());
             String rebuilt = null;
@@ -133,7 +136,7 @@ public class TreePaintGUI extends JFrame  implements ActionListener
         }
 
     }
-
+        //Binary Tree Build
     public void buildBinaryTree(char[] input){
         long before = System.currentTimeMillis() ;
         int k = 0;
@@ -161,7 +164,7 @@ public class TreePaintGUI extends JFrame  implements ActionListener
         System.out.println("Time to build and print: " +(after - before));
 
     }
-
+        //Binary Search Tree build
     public void buildBST (char[] input){
         for (char letter : input){
 
@@ -196,7 +199,9 @@ public class TreePaintGUI extends JFrame  implements ActionListener
             return count;  // Return the total.
         }
     } // end countNodes()
-
+    
+    //Tree printing
+    
     abstract class NodePrinter {
 
         abstract void nodeprint (BinaryNode root, String title);
