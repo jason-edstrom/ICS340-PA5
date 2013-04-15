@@ -86,6 +86,17 @@ public class TreePaintGUI extends JFrame  implements ActionListener
     public void actionPerformed(ActionEvent actionEvent) {
         Object obj = actionEvent.getSource();
         System.out.println(obj);
+
+        if (tf_inpu.getText().isEmpty() || tf_inpu.getText().length() == 0){
+            JFrame frame = new JFrame();
+            JOptionPane.showMessageDialog(frame,
+                    "Your input is empty.  Please add some text to the field",
+                    "No Input Found",
+                    JOptionPane.ERROR_MESSAGE);
+
+        } else{
+
+
         if ( obj == bt_Dra){
             String input = new String (tf_inpu.getText());
             char[] inputArray = input.toCharArray();
@@ -116,6 +127,8 @@ public class TreePaintGUI extends JFrame  implements ActionListener
             printer.nodeprint (bsTree, "Binary Search Tree");
             bsTree = null;
             bsTree = new BinaryNode();
+
+        }
 
         }
 

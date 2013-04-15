@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5730d92b-916e-4541-a46f-dae2604f7f3d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/NodePrinterTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BinaryNode.java" afterPath="$PROJECT_DIR$/src/BinaryNode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BinaryTree.java" afterPath="$PROJECT_DIR$/src/BinaryTree.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TreePaintGUI.java" afterPath="$PROJECT_DIR$/src/TreePaintGUI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ICS340-PA5.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="5730d92b-916e-4541-a46f-dae2604f7f3d" time="1365616232035" ignored="false" />
-    <file path="/TreePaintGUI.java" changelist="5730d92b-916e-4541-a46f-dae2604f7f3d" time="1366042751492" ignored="false" />
+    <file path="/TreePaintGUI.java" changelist="5730d92b-916e-4541-a46f-dae2604f7f3d" time="1366047099058" ignored="false" />
     <file path="/Dummy.txt" changelist="5730d92b-916e-4541-a46f-dae2604f7f3d" time="1365731612118" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/orm_1_0.xsd" changelist="5730d92b-916e-4541-a46f-dae2604f7f3d" time="1365465783592" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/jspxml.xsd" changelist="5730d92b-916e-4541-a46f-dae2604f7f3d" time="1365465783592" ignored="false" />
@@ -238,7 +234,7 @@
       <file leaf-file-name="TreePaintGUI.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TreePaintGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="115" column="47" selection-start="3137" selection-end="3137" vertical-scroll-proportion="0.9168901">
+            <state line="94" column="45" selection-start="2298" selection-end="2298" vertical-scroll-proportion="0.6032172">
               <folding />
             </state>
           </provider>
@@ -517,6 +513,11 @@
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="5730d92b-916e-4541-a46f-dae2604f7f3d" name="Default" comment="" />
@@ -527,7 +528,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -547,7 +548,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20016207" sideWeight="0.4327217" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36697248" sideWeight="0.99962586" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36697248" sideWeight="0.99962586" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -736,7 +737,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TreePaintGUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="47" selection-start="3137" selection-end="3137" vertical-scroll-proportion="0.9168901">
+        <state line="94" column="45" selection-start="2298" selection-end="2298" vertical-scroll-proportion="0.6032172">
           <folding />
         </state>
       </provider>
