@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5730d92b-916e-4541-a46f-dae2604f7f3d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BinaryNode.java" afterPath="$PROJECT_DIR$/src/BinaryNode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TreePaintGUI.java" afterPath="$PROJECT_DIR$/src/TreePaintGUI.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ICS340-PA5.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.java" changelist="5730d92b-916e-4541-a46f-dae2604f7f3d" time="1366051728320" ignored="false" />
+    <file path="/fragment.java" changelist="5730d92b-916e-4541-a46f-dae2604f7f3d" time="1366070460460" ignored="false" />
     <file path="/TreePaintGUI.java" changelist="5730d92b-916e-4541-a46f-dae2604f7f3d" time="1366047099058" ignored="false" />
-    <file path="/Dummy.txt" changelist="5730d92b-916e-4541-a46f-dae2604f7f3d" time="1366052418551" ignored="false" />
+    <file path="/Dummy.txt" changelist="5730d92b-916e-4541-a46f-dae2604f7f3d" time="1366058226618" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/orm_1_0.xsd" changelist="5730d92b-916e-4541-a46f-dae2604f7f3d" time="1365465783592" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/jspxml.xsd" changelist="5730d92b-916e-4541-a46f-dae2604f7f3d" time="1365465783592" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/application_6.xsd" changelist="5730d92b-916e-4541-a46f-dae2604f7f3d" time="1365465783592" ignored="false" />
@@ -131,6 +129,11 @@
     <file path="/BinaryNode.java" changelist="5730d92b-916e-4541-a46f-dae2604f7f3d" time="1365725564256" ignored="false" />
     <file path="$PROJECT_DIR$/../Test/src/com/company/BinaryNode.java" changelist="5730d92b-916e-4541-a46f-dae2604f7f3d" time="1366051710955" ignored="false" />
     <file path="$PROJECT_DIR$/../Test/src/com/company/TreePaintGUI.java" changelist="5730d92b-916e-4541-a46f-dae2604f7f3d" time="1366051710955" ignored="false" />
+    <file path="$PROJECT_DIR$/../ICS340-PA6/src/BinaryNode.java" changelist="5730d92b-916e-4541-a46f-dae2604f7f3d" time="1366070145294" ignored="false" />
+    <file path="$PROJECT_DIR$/../ICS340-PA6/src/BinarySearchTree.java" changelist="5730d92b-916e-4541-a46f-dae2604f7f3d" time="1366070435529" ignored="false" />
+    <file path="$PROJECT_DIR$/../ICS340-PA6/src/DuplicateItemException.java" changelist="5730d92b-916e-4541-a46f-dae2604f7f3d" time="1366070255076" ignored="false" />
+    <file path="/BinarySearchTree.java" changelist="5730d92b-916e-4541-a46f-dae2604f7f3d" time="1366070434279" ignored="false" />
+    <file path="$PROJECT_DIR$/../ICS340-PA6/src/BSTRenderGUI.java" changelist="5730d92b-916e-4541-a46f-dae2604f7f3d" time="1366072196137" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,7 +238,7 @@
       <file leaf-file-name="TreePaintGUI.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TreePaintGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="77" selection-start="2043" selection-end="2043" vertical-scroll-proportion="0.04021448">
+            <state line="98" column="108" selection-start="2300" selection-end="2300" vertical-scroll-proportion="0.02446982">
               <folding />
             </state>
           </provider>
@@ -300,7 +303,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -354,6 +356,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -542,19 +545,19 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.57012194" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1993517" sideWeight="0.19877675" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1993517" sideWeight="0.3149847" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1993517" sideWeight="0.4327217" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1993517" sideWeight="0.68501526" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36697248" sideWeight="0.99962586" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.57012194" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -726,7 +729,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TreePaintGUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="77" selection-start="2043" selection-end="2043" vertical-scroll-proportion="0.04021448">
+        <state line="98" column="108" selection-start="2300" selection-end="2300" vertical-scroll-proportion="0.02446982">
           <folding />
         </state>
       </provider>
